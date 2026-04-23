@@ -4,11 +4,13 @@ import Link from "next/link";
 import { Gallery } from "@/components/Gallery";
 import { ContactReveal } from "@/components/ContactReveal";
 import { ListingCard } from "@/components/ListingCard";
+import { VrTour } from "@/components/VrTour";
 import { cityById, cityName } from "@/lib/cities";
 import { formatPrice, pricePerSqm } from "@/lib/format";
 import type { Listing } from "@/lib/types";
 import { useApp } from "@/components/I18nProvider";
 import { formatDateI18n } from "@/lib/dateI18n";
+import { vrTourUrl } from "@/lib/vr";
 
 export function OfferView({
   listing,
@@ -33,6 +35,8 @@ export function OfferView({
   const price = formatPrice(listing.price, lang);
   const priceLabel =
     listing.dealType === "rent" ? `${price} ${t("listing.per_month")}` : price;
+
+  const tourUrl = vrTourUrl(listing.id);
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-6">
@@ -67,6 +71,8 @@ export function OfferView({
       <div className="grid gap-6 lg:grid-cols-[1fr_360px]">
         <div>
           <Gallery images={listing.images} title={listing.title} />
+
+          {tourUrl ? <VrTour url={tourUrl} /> : null}
 
           <section className="mt-8 bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 p-4 sm:p-6">
             <h2 className="text-lg font-semibold mb-4 text-slate-900 dark:text-slate-100">

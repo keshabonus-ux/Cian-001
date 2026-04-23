@@ -426,6 +426,17 @@ export const DICT = {
     "mortgage.form.success.title": "Заявка на ипотеку принята",
     "mortgage.form.success.desc":
       "В реальном продукте менеджер перезвонит и пройдёт первичный скоринг. Это прототип — данные не отправляются.",
+
+    "vr.title": "3D/VR-прогулка по объекту",
+    "vr.badge": "3D-тур",
+    "vr.desc":
+      "Осмотрите каждую комнату онлайн — как будто вы внутри. Доступно на телефоне, планшете и в VR-очках.",
+    "vr.start": "Запустить 3D-прогулку",
+    "vr.close": "Свернуть",
+    "vr.fullscreen": "На весь экран",
+    "vr.unavailable": "Для этого объекта 3D-тур пока недоступен",
+    "vr.note":
+      "Управление: мышью/пальцем — оглядываться, колесом — приближение, клик по кружкам на полу — переход в другую комнату.",
   },
   tk: {
     "brand.tagline": "Türkmenistanyň gozgalmaýan emläk bazary",
@@ -846,6 +857,17 @@ export const DICT = {
     "mortgage.form.success.title": "Ipoteka haýyşy kabul edildi",
     "mortgage.form.success.desc":
       "Hakyky önümde menejer jaň edip birinji skoring geçirer. Bu prototip — maglumatlar iberilmeýär.",
+
+    "vr.title": "Obýekt boýunça 3D/VR gezelenç",
+    "vr.badge": "3D tur",
+    "vr.desc":
+      "Her otagy onlaýn görüň — hamala içindäki ýaly. Telefonda, planşetde we VR äýneklerde elýeterli.",
+    "vr.start": "3D gezelenji başla",
+    "vr.close": "Ýygnamak",
+    "vr.fullscreen": "Doly ekran",
+    "vr.unavailable": "Bu obýekt üçin 3D tur henize çenli ýok",
+    "vr.note":
+      "Dolandyryş: syçan/barmak bilen — töwerek seretmek, tigirçek bilen — ýakynlaşdyrmak, pol üstündäki tegelekler — başga otaga geçmek.",
   },
   en: {
     "brand.tagline": "Real estate in Turkmenistan",
@@ -1266,6 +1288,17 @@ export const DICT = {
     "mortgage.form.success.title": "Mortgage application received",
     "mortgage.form.success.desc":
       "In a real product a manager would call back and run an initial scoring. This is a prototype — data is not sent.",
+
+    "vr.title": "3D/VR tour of the property",
+    "vr.badge": "3D tour",
+    "vr.desc":
+      "Walk through every room online — as if you were inside. Works on phone, tablet and in VR headsets.",
+    "vr.start": "Start 3D tour",
+    "vr.close": "Collapse",
+    "vr.fullscreen": "Fullscreen",
+    "vr.unavailable": "3D tour is not available for this property yet",
+    "vr.note":
+      "Controls: mouse / finger to look around, wheel to zoom, click circles on the floor to move to another room.",
   },
 } as const;
 
