@@ -380,6 +380,52 @@ export const DICT = {
     "check.result.pending": "Не проверено",
     "check.result.cta": "Заказать юридическое сопровождение",
     "check.result.new": "Проверить другой объект",
+
+    "mortgage.title": "Ипотека на недвижимость",
+    "mortgage.subtitle":
+      "Кредиты от банков-партнёров на покупку квартир, домов и коммерческой недвижимости в Туркменистане. Рассчитайте платёж и оставьте заявку.",
+    "mortgage.calc.title": "Ипотечный калькулятор",
+    "mortgage.calc.price": "Стоимость объекта, ТМТ",
+    "mortgage.calc.down": "Первоначальный взнос, ТМТ",
+    "mortgage.calc.down_pct": "Первоначальный взнос, %",
+    "mortgage.calc.term": "Срок, лет",
+    "mortgage.calc.rate": "Ставка, % годовых",
+    "mortgage.calc.monthly": "Ежемесячный платёж",
+    "mortgage.calc.loan": "Сумма кредита",
+    "mortgage.calc.overpay": "Переплата за весь срок",
+    "mortgage.calc.total": "Общая сумма выплат",
+    "mortgage.calc.per_month": "/ мес.",
+
+    "mortgage.banks.title": "Банки-партнёры",
+    "mortgage.banks.rate": "Ставка от",
+    "mortgage.banks.down": "Первый взнос от",
+    "mortgage.banks.term": "Срок до",
+    "mortgage.banks.years": "лет",
+    "mortgage.banks.apply": "Оставить заявку",
+    "mortgage.banks.sbtm.name": "Halkbank",
+    "mortgage.banks.sbtm.desc":
+      "Классическая ипотека на квартиры и дома для граждан Туркменистана.",
+    "mortgage.banks.dayhan.name": "Daýhanbank",
+    "mortgage.banks.dayhan.desc":
+      "Ипотека на частные дома и земельные участки в регионах.",
+    "mortgage.banks.senagat.name": "Senagat Bank",
+    "mortgage.banks.senagat.desc":
+      "Кредиты для сотрудников компаний-партнёров и коммерческая ипотека.",
+    "mortgage.banks.rysgal.name": "Rysgal Bank",
+    "mortgage.banks.rysgal.desc":
+      "Программа для молодых семей и льготных категорий.",
+
+    "mortgage.form.title": "Заявка на ипотеку",
+    "mortgage.form.subtitle":
+      "Оставьте заявку — менеджер подберёт банк и программу под ваши параметры. Это прототип, данные не отправляются.",
+    "mortgage.form.bank": "Выбранный банк",
+    "mortgage.form.bank.any": "Подобрать любой",
+    "mortgage.form.income": "Ежемесячный доход, ТМТ",
+    "mortgage.form.employer": "Место работы",
+    "mortgage.form.submit": "Отправить заявку",
+    "mortgage.form.success.title": "Заявка на ипотеку принята",
+    "mortgage.form.success.desc":
+      "В реальном продукте менеджер перезвонит и пройдёт первичный скоринг. Это прототип — данные не отправляются.",
   },
   tk: {
     "brand.tagline": "Türkmenistanyň gozgalmaýan emläk bazary",
@@ -754,6 +800,52 @@ export const DICT = {
     "check.result.pending": "Barlanmady",
     "check.result.cta": "Ýurist kömegine ýazylmak",
     "check.result.new": "Başga obýekti barlamak",
+
+    "mortgage.title": "Gozgalmaýan emläk üçin ipoteka",
+    "mortgage.subtitle":
+      "Türkmenistanda kwartiralary, jaýlary we täjirçilik emlägi satyn almak üçin hyzmatdaş banklaryň karzlary. Tölegi hasaplap, haýyş goýuň.",
+    "mortgage.calc.title": "Ipoteka kalkulýator",
+    "mortgage.calc.price": "Obýektiň bahasy, TMT",
+    "mortgage.calc.down": "Başlangyç töleg, TMT",
+    "mortgage.calc.down_pct": "Başlangyç töleg, %",
+    "mortgage.calc.term": "Möhlet, ýyl",
+    "mortgage.calc.rate": "Göterim, ýyllyk %",
+    "mortgage.calc.monthly": "Aýlyk töleg",
+    "mortgage.calc.loan": "Karzyň möçberi",
+    "mortgage.calc.overpay": "Ähli möhlet üçin aşa töleg",
+    "mortgage.calc.total": "Jemi töleg",
+    "mortgage.calc.per_month": "/ aý",
+
+    "mortgage.banks.title": "Hyzmatdaş banklar",
+    "mortgage.banks.rate": "Göterim",
+    "mortgage.banks.down": "Başlangyç töleg",
+    "mortgage.banks.term": "Möhleti çenli",
+    "mortgage.banks.years": "ýyl",
+    "mortgage.banks.apply": "Haýyş goý",
+    "mortgage.banks.sbtm.name": "Halkbank",
+    "mortgage.banks.sbtm.desc":
+      "Türkmenistanyň raýatlary üçin kwartiralara we jaýlara klassyky ipoteka.",
+    "mortgage.banks.dayhan.name": "Daýhanbank",
+    "mortgage.banks.dayhan.desc":
+      "Welaýatlarda şahsy jaýlar we ýer bölekleri üçin ipoteka.",
+    "mortgage.banks.senagat.name": "Senagat Bank",
+    "mortgage.banks.senagat.desc":
+      "Hyzmatdaş kompaniýalaryň işgärleri üçin karzlar we täjirçilik ipoteka.",
+    "mortgage.banks.rysgal.name": "Rysgal Bank",
+    "mortgage.banks.rysgal.desc":
+      "Ýaş maşgalalar we ýeňillikli toparlar üçin maksatnama.",
+
+    "mortgage.form.title": "Ipoteka haýyşy",
+    "mortgage.form.subtitle":
+      "Haýyş goýuň — menejer siziň parametrleriňize görä bank we maksatnama saýlar. Bu prototip, maglumatlar iberilmeýär.",
+    "mortgage.form.bank": "Saýlanan bank",
+    "mortgage.form.bank.any": "Islendigini saýlaň",
+    "mortgage.form.income": "Aýlyk girdeji, TMT",
+    "mortgage.form.employer": "Iş ýeri",
+    "mortgage.form.submit": "Haýyşy iber",
+    "mortgage.form.success.title": "Ipoteka haýyşy kabul edildi",
+    "mortgage.form.success.desc":
+      "Hakyky önümde menejer jaň edip birinji skoring geçirer. Bu prototip — maglumatlar iberilmeýär.",
   },
   en: {
     "brand.tagline": "Real estate in Turkmenistan",
@@ -1128,6 +1220,52 @@ export const DICT = {
     "check.result.pending": "Not checked",
     "check.result.cta": "Order legal support",
     "check.result.new": "Check another property",
+
+    "mortgage.title": "Mortgage for real estate",
+    "mortgage.subtitle":
+      "Mortgage loans from partner banks for buying apartments, houses and commercial property in Turkmenistan. Calculate the payment and submit an application.",
+    "mortgage.calc.title": "Mortgage calculator",
+    "mortgage.calc.price": "Property price, TMT",
+    "mortgage.calc.down": "Down payment, TMT",
+    "mortgage.calc.down_pct": "Down payment, %",
+    "mortgage.calc.term": "Term, years",
+    "mortgage.calc.rate": "Rate, % annual",
+    "mortgage.calc.monthly": "Monthly payment",
+    "mortgage.calc.loan": "Loan amount",
+    "mortgage.calc.overpay": "Total interest over the term",
+    "mortgage.calc.total": "Total payments",
+    "mortgage.calc.per_month": "/ mo",
+
+    "mortgage.banks.title": "Partner banks",
+    "mortgage.banks.rate": "Rate from",
+    "mortgage.banks.down": "Down payment from",
+    "mortgage.banks.term": "Term up to",
+    "mortgage.banks.years": "yrs",
+    "mortgage.banks.apply": "Apply",
+    "mortgage.banks.sbtm.name": "Halkbank",
+    "mortgage.banks.sbtm.desc":
+      "Classic mortgage on apartments and houses for citizens of Turkmenistan.",
+    "mortgage.banks.dayhan.name": "Daýhanbank",
+    "mortgage.banks.dayhan.desc":
+      "Mortgage for private houses and land plots in the regions.",
+    "mortgage.banks.senagat.name": "Senagat Bank",
+    "mortgage.banks.senagat.desc":
+      "Loans for employees of partner companies and commercial mortgage.",
+    "mortgage.banks.rysgal.name": "Rysgal Bank",
+    "mortgage.banks.rysgal.desc":
+      "Programme for young families and eligible categories.",
+
+    "mortgage.form.title": "Mortgage application",
+    "mortgage.form.subtitle":
+      "Submit an application — a manager will pick a bank and programme that fits your parameters. This is a prototype, data is not sent.",
+    "mortgage.form.bank": "Selected bank",
+    "mortgage.form.bank.any": "Pick any",
+    "mortgage.form.income": "Monthly income, TMT",
+    "mortgage.form.employer": "Employer",
+    "mortgage.form.submit": "Send application",
+    "mortgage.form.success.title": "Mortgage application received",
+    "mortgage.form.success.desc":
+      "In a real product a manager would call back and run an initial scoring. This is a prototype — data is not sent.",
   },
 } as const;
 

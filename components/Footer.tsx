@@ -85,6 +85,9 @@ export function Footer() {
               <Link href="/check">{t("services.check")}</Link>
             </li>
             <li>
+              <Link href="/mortgage">{t("services.mortgage")}</Link>
+            </li>
+            <li>
               <Link href="/new">{t("footer.post")}</Link>
             </li>
             <li>

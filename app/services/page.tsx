@@ -39,7 +39,7 @@ const SERVICES: ServiceCard[] = [
     icon: "🏦",
     titleKey: "services.mortgage",
     descKey: "services.mortgage.desc",
-    available: false,
+    available: true,
   },
 ];
 
