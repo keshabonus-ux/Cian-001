@@ -145,6 +145,14 @@ export const DICT = {
     "new.role.agency": "Агентство",
     "new.submit": "Опубликовать",
     "new.required": "Пожалуйста, заполните обязательные поля: название, цена, площадь и телефон.",
+    "new.map.label": "Местоположение на карте",
+    "new.map.hint": "Кликните по карте, чтобы поставить точку. Маркер можно перетаскивать.",
+    "new.map.use_gps": "Использовать моё местоположение",
+    "new.map.selected": "Координаты",
+    "new.map.none": "Точка не выбрана — по умолчанию центр города",
+    "new.map.reset": "Сбросить",
+    "new.map.error": "Не удалось загрузить карту. Проверьте подключение к интернету.",
+    "new.map.geo_error": "Не удалось получить геолокацию. Разрешите доступ в браузере.",
     "new.success.title": "Объявление отправлено!",
     "new.success.desc":
       "В реальном продукте оно бы отправилось на модерацию. Это прототип, поэтому мы просто показываем подтверждение.",
@@ -224,6 +232,219 @@ export const DICT = {
     "common.of_currency": "ТМТ",
     "deal.sale": "Продажа",
     "deal.rent": "Аренда",
+
+    "nav.services": "Услуги",
+    "services.title": "Сервисы Jay.tm",
+    "services.subtitle":
+      "Дополнительные услуги для покупателей, арендаторов и собственников — в одном окне.",
+    "services.realtors": "Риелторы",
+    "services.realtors.desc":
+      "Каталог проверенных риелторов Туркменистана с рейтингом, отзывами и портфелем объявлений.",
+    "services.legal": "Юрист",
+    "services.legal.desc":
+      "Помощь юриста в сборе и оформлении документов для сделки купли-продажи и аренды.",
+    "services.check": "Проверка недвижимости",
+    "services.check.desc":
+      "Проверка, находится ли здание под арестом или в залоге у банка, перед покупкой.",
+    "services.mortgage": "Ипотека",
+    "services.mortgage.desc":
+      "Кредиты на покупку недвижимости от банков-партнёров: калькулятор и заявка.",
+    "services.open": "Открыть →",
+    "services.coming_soon": "Скоро",
+
+    "realtors.title": "Риелторы Туркменистана",
+    "realtors.subtitle":
+      "Проверенные специалисты по недвижимости в Ашхабаде, Туркменабате, Мары, Дашогузе, Балканабате и Туркменбаши. Помогут подобрать объект, сопроводить сделку и проверить документы.",
+    "realtors.search.placeholder": "Имя, агентство или город…",
+    "realtors.city": "Город",
+    "realtors.city.any": "Все города",
+    "realtors.spec": "Специализация",
+    "realtors.spec.any": "Любая",
+    "realtors.spec.sale_apartments": "Продажа квартир",
+    "realtors.spec.rent_apartments": "Аренда квартир",
+    "realtors.spec.houses": "Дома",
+    "realtors.spec.commercial": "Коммерческая",
+    "realtors.spec.land": "Участки",
+    "realtors.found": "Найдено риелторов:",
+    "realtors.no_results": "По этим условиям никого не нашли.",
+    "realtors.reset": "Сбросить фильтры",
+    "realtors.rating": "рейтинг",
+    "realtors.reviews": "отзывов",
+    "realtors.deals": "закрытых сделок",
+    "realtors.listings": "активных объявлений",
+    "realtors.experience": "стаж",
+    "realtors.experience.years": "лет",
+    "realtors.languages": "Языки",
+    "realtors.agency.none": "Частный риелтор",
+    "realtors.become.title": "Вы риелтор?",
+    "realtors.become.desc":
+      "Разместите карточку, получайте заявки от покупателей и арендаторов, ведите портфель объявлений в кабинете Jay.tm.",
+    "realtors.become.cta": "Стать партнёром",
+    "realtors.apply.title": "Заявка на размещение в каталоге риелторов",
+    "realtors.apply.subtitle":
+      "Оставьте данные — в реальном продукте менеджер свяжется с вами и поможет оформить профиль. Это прототип, данные никуда не отправляются.",
+    "realtors.apply.fullname": "ФИО",
+    "realtors.apply.agency": "Агентство (если есть)",
+    "realtors.apply.experience": "Стаж, лет",
+    "realtors.apply.spec": "Специализация",
+    "realtors.apply.submit": "Отправить заявку",
+    "realtors.apply.success": "Спасибо! Заявка принята. Менеджер свяжется с вами в течение рабочего дня.",
+    "realtors.contact.call": "Позвонить",
+    "realtors.contact.write": "Написать",
+    "realtors.profile.about": "О риелторе",
+    "realtors.profile.stats": "Показатели работы",
+    "realtors.profile.contacts": "Контакты",
+    "realtors.profile.listings": "Объявления риелтора",
+    "realtors.profile.listings.empty":
+      "Активных объявлений у риелтора пока нет.",
+    "realtors.profile.back": "← Ко всем риелторам",
+
+    "legal.title": "Помощь юриста",
+    "legal.subtitle":
+      "Поможем собрать документы, проверить продавца и провести сделку безопасно — от консультации до регистрации в Госрегистре.",
+    "legal.services.title": "Что входит в услугу",
+    "legal.services.consult": "Юридическая консультация",
+    "legal.services.consult.desc":
+      "Разберём вашу ситуацию: покупка, продажа, дарение, наследство, аренда.",
+    "legal.services.docs": "Сбор и подготовка документов",
+    "legal.services.docs.desc":
+      "Поможем получить справки, выписки, технический паспорт и заверенные переводы.",
+    "legal.services.contract": "Составление договора",
+    "legal.services.contract.desc":
+      "Договор купли-продажи или аренды с учётом требований Туркменистана.",
+    "legal.services.notary": "Сопровождение у нотариуса",
+    "legal.services.notary.desc":
+      "Юрист присутствует при удостоверении сделки и контролирует корректность документов.",
+    "legal.services.register": "Регистрация сделки",
+    "legal.services.register.desc":
+      "Подача в Госрегистр и получение свидетельства о праве собственности.",
+    "legal.services.dispute": "Споры и суды",
+    "legal.services.dispute.desc":
+      "Защита интересов при спорах с соседями, застройщиком или арендатором.",
+
+    "legal.docs.title": "Какие документы нужны",
+    "legal.docs.deal": "Вид сделки",
+    "legal.docs.deal.buy": "Покупка",
+    "legal.docs.deal.sell": "Продажа",
+    "legal.docs.deal.rent": "Аренда",
+    "legal.docs.buy.1": "Паспорт покупателя",
+    "legal.docs.buy.2": "Согласие супруга/супруги (если есть)",
+    "legal.docs.buy.3": "Справка о доходах или источнике средств",
+    "legal.docs.buy.4": "Документ об отсутствии задолженностей",
+    "legal.docs.buy.5": "Оригинал договора купли-продажи",
+    "legal.docs.sell.1": "Паспорт собственника",
+    "legal.docs.sell.2": "Документ о праве собственности",
+    "legal.docs.sell.3": "Технический паспорт здания",
+    "legal.docs.sell.4": "Справка об отсутствии ареста и залога",
+    "legal.docs.sell.5": "Согласие совладельцев/супруга",
+    "legal.docs.sell.6": "Справка об отсутствии коммунальных долгов",
+    "legal.docs.rent.1": "Паспорта сторон",
+    "legal.docs.rent.2": "Документ о праве собственности",
+    "legal.docs.rent.3": "Опись имущества",
+    "legal.docs.rent.4": "Договор аренды и акт приёма-передачи",
+
+    "legal.form.title": "Оставить заявку юристу",
+    "legal.form.subtitle":
+      "Опишите ситуацию — юрист свяжется с вами, оценит объём работ и назовёт стоимость. Это прототип, данные не отправляются.",
+    "legal.form.deal": "Тип обращения",
+    "legal.form.description": "Описание ситуации",
+    "legal.form.description.ph":
+      "Например: покупаем квартиру в Беркарарлыке, нужен договор и сопровождение сделки.",
+    "legal.form.submit": "Отправить заявку",
+    "legal.form.success.title": "Заявка принята",
+    "legal.form.success.desc":
+      "Юрист свяжется с вами в течение рабочего дня. В прототипе данные никуда не отправляются.",
+    "legal.cta.book": "Записаться на консультацию",
+
+    "check.title": "Проверка недвижимости",
+    "check.subtitle":
+      "Узнайте, не находится ли здание под арестом, в залоге у банка или под ограничениями — до заключения сделки.",
+    "check.form.address": "Адрес или кадастровый номер",
+    "check.form.address.ph":
+      "Например: Ашхабад, Беркарарлык, ул. Атамурат Ныязова 15, кв. 42",
+    "check.form.owner": "ФИО собственника (если известно)",
+    "check.form.submit": "Проверить",
+    "check.form.checking": "Проверяем…",
+    "check.form.note":
+      "Это прототип — запрос не уходит в Госрегистр или банки. Результат сгенерирован по данным примера.",
+    "check.result.title": "Результат проверки",
+    "check.result.object": "Объект",
+    "check.result.checked": "Проверено",
+    "check.result.status": "Статус",
+    "check.result.status.clean": "Ограничений не выявлено",
+    "check.result.status.warn": "Есть ограничения",
+    "check.result.clean":
+      "По базам Госрегистра и банков-партнёров объект свободен от арестов, залогов и задолженностей. Можно выходить на сделку.",
+    "check.result.warn":
+      "По объекту есть ограничения. Перед сделкой обязательно обратитесь к юристу и уточните детали у продавца.",
+    "check.result.blocks.title": "Что проверено",
+    "check.result.arrest": "Арест суда / ФССП",
+    "check.result.pledge": "Залог в банке",
+    "check.result.encumbrance": "Прочие обременения (аренда, сервитут)",
+    "check.result.utility": "Коммунальные задолженности",
+    "check.result.owner": "Собственник подтверждён",
+    "check.result.ok": "Чисто",
+    "check.result.fail": "Обнаружено",
+    "check.result.pending": "Не проверено",
+    "check.result.cta": "Заказать юридическое сопровождение",
+    "check.result.new": "Проверить другой объект",
+
+    "mortgage.title": "Ипотека на недвижимость",
+    "mortgage.subtitle":
+      "Кредиты от банков-партнёров на покупку квартир, домов и коммерческой недвижимости в Туркменистане. Рассчитайте платёж и оставьте заявку.",
+    "mortgage.calc.title": "Ипотечный калькулятор",
+    "mortgage.calc.price": "Стоимость объекта, ТМТ",
+    "mortgage.calc.down": "Первоначальный взнос, ТМТ",
+    "mortgage.calc.down_pct": "Первоначальный взнос, %",
+    "mortgage.calc.term": "Срок, лет",
+    "mortgage.calc.rate": "Ставка, % годовых",
+    "mortgage.calc.monthly": "Ежемесячный платёж",
+    "mortgage.calc.loan": "Сумма кредита",
+    "mortgage.calc.overpay": "Переплата за весь срок",
+    "mortgage.calc.total": "Общая сумма выплат",
+    "mortgage.calc.per_month": "/ мес.",
+
+    "mortgage.banks.title": "Банки-партнёры",
+    "mortgage.banks.rate": "Ставка от",
+    "mortgage.banks.down": "Первый взнос от",
+    "mortgage.banks.term": "Срок до",
+    "mortgage.banks.years": "лет",
+    "mortgage.banks.apply": "Оставить заявку",
+    "mortgage.banks.sbtm.name": "Halkbank",
+    "mortgage.banks.sbtm.desc":
+      "Классическая ипотека на квартиры и дома для граждан Туркменистана.",
+    "mortgage.banks.dayhan.name": "Daýhanbank",
+    "mortgage.banks.dayhan.desc":
+      "Ипотека на частные дома и земельные участки в регионах.",
+    "mortgage.banks.senagat.name": "Senagat Bank",
+    "mortgage.banks.senagat.desc":
+      "Кредиты для сотрудников компаний-партнёров и коммерческая ипотека.",
+    "mortgage.banks.rysgal.name": "Rysgal Bank",
+    "mortgage.banks.rysgal.desc":
+      "Программа для молодых семей и льготных категорий.",
+
+    "mortgage.form.title": "Заявка на ипотеку",
+    "mortgage.form.subtitle":
+      "Оставьте заявку — менеджер подберёт банк и программу под ваши параметры. Это прототип, данные не отправляются.",
+    "mortgage.form.bank": "Выбранный банк",
+    "mortgage.form.bank.any": "Подобрать любой",
+    "mortgage.form.income": "Ежемесячный доход, ТМТ",
+    "mortgage.form.employer": "Место работы",
+    "mortgage.form.submit": "Отправить заявку",
+    "mortgage.form.success.title": "Заявка на ипотеку принята",
+    "mortgage.form.success.desc":
+      "В реальном продукте менеджер перезвонит и пройдёт первичный скоринг. Это прототип — данные не отправляются.",
+
+    "vr.title": "3D/VR-прогулка по объекту",
+    "vr.badge": "3D-тур",
+    "vr.desc":
+      "Осмотрите каждую комнату онлайн — как будто вы внутри. Доступно на телефоне, планшете и в VR-очках.",
+    "vr.start": "Запустить 3D-прогулку",
+    "vr.close": "Свернуть",
+    "vr.fullscreen": "На весь экран",
+    "vr.unavailable": "Для этого объекта 3D-тур пока недоступен",
+    "vr.note":
+      "Управление: мышью/пальцем — оглядываться, колесом — приближение, клик по кружкам на полу — переход в другую комнату.",
   },
   tk: {
     "brand.tagline": "Türkmenistanyň gozgalmaýan emläk bazary",
@@ -362,6 +583,14 @@ export const DICT = {
     "new.submit": "Çap et",
     "new.required":
       "Zerur meýdanlary dolduryň: ady, bahasy, meýdany we telefon.",
+    "new.map.label": "Kartada ýerleşýän ýeri",
+    "new.map.hint": "Nokady goýmak üçin kartada basyň. Markery süýşürip bolýar.",
+    "new.map.use_gps": "Meniň ýerleşýän ýerimi ulanmak",
+    "new.map.selected": "Koordinatalar",
+    "new.map.none": "Nokat saýlanmady — şäheriň merkezi ulanylar",
+    "new.map.reset": "Şäheriň merkezine dolan",
+    "new.map.error": "Karta ýüklenip bilmedi. Internet birikmäňizi barlaň.",
+    "new.map.geo_error": "Ýerleşýän ýer alnyp bilmedi. Brauzerde rugsat beriň.",
     "new.success.title": "Bildiriş iberildi!",
     "new.success.desc":
       "Hakyky önümde ol moderasiýa iberilerdi. Bu prototip, şonuň üçin diňe tassyklamany görkezýäris.",
@@ -441,6 +670,220 @@ export const DICT = {
     "common.of_currency": "TMT",
     "deal.sale": "Satuw",
     "deal.rent": "Kärende",
+
+    "nav.services": "Hyzmatlar",
+    "services.title": "Jay.tm hyzmatlary",
+    "services.subtitle":
+      "Alyjylar, kärendeçiler we eýeler üçin goşmaça hyzmatlar — bir ýerde.",
+    "services.realtors": "Rieltorlar",
+    "services.realtors.desc":
+      "Reýtingi, teswirleri we bildirişleri bilen Türkmenistanyň synag edilen rieltorlarynyň katalogy.",
+    "services.legal": "Ýurist",
+    "services.legal.desc":
+      "Satyn alyş-satuw we kärende şertnamasy üçin resminamalary ýygnamakda we taýýarlamakda ýurist kömegi.",
+    "services.check": "Emläk barlagy",
+    "services.check.desc":
+      "Satyn almazdan öň binanyň tussaglykda ýa-da bankda girewdedigini barlamak.",
+    "services.mortgage": "Ipoteka",
+    "services.mortgage.desc":
+      "Hyzmatdaş banklardan gozgalmaýan emläk üçin karzlar: kalkulýator we haýyş.",
+    "services.open": "Açmak →",
+    "services.coming_soon": "Golaýda",
+
+    "realtors.title": "Türkmenistanyň rieltorlary",
+    "realtors.subtitle":
+      "Aşgabat, Türkmenabat, Mary, Daşoguz, Balkanabat we Türkmenbaşyda synag edilen gozgalmaýan emläk hünärmenleri. Emläk saýlamaga, şertnamany geçirmäge we resminamalary barlamaga kömek ederler.",
+    "realtors.search.placeholder": "At, agentlik ýa-da şäher…",
+    "realtors.city": "Şäher",
+    "realtors.city.any": "Ähli şäherler",
+    "realtors.spec": "Hünär ugrı",
+    "realtors.spec.any": "Islendik",
+    "realtors.spec.sale_apartments": "Kwartira satuwy",
+    "realtors.spec.rent_apartments": "Kwartira kärendesi",
+    "realtors.spec.houses": "Jaýlar",
+    "realtors.spec.commercial": "Täjirçilik",
+    "realtors.spec.land": "Ýer bölekleri",
+    "realtors.found": "Tapylan rieltor sany:",
+    "realtors.no_results": "Bu şertler bilen hiç kim tapylmady.",
+    "realtors.reset": "Süzgüçleri arassala",
+    "realtors.rating": "reýting",
+    "realtors.reviews": "teswir",
+    "realtors.deals": "ýapylan şertnama",
+    "realtors.listings": "işjeň bildiriş",
+    "realtors.experience": "tejribe",
+    "realtors.experience.years": "ýyl",
+    "realtors.languages": "Diller",
+    "realtors.agency.none": "Şahsy rieltor",
+    "realtors.become.title": "Siz rieltormy?",
+    "realtors.become.desc":
+      "Öz kartaňyzy ýerleşdiriň, satyjylardan we kärendeçilerden haýyşlary alyp, bildirişleriňizi Jay.tm şahsy otagda dolandyryň.",
+    "realtors.become.cta": "Hyzmatdaş boluň",
+    "realtors.apply.title": "Rieltorlar katalogynda ýerleşmek üçin haýyş",
+    "realtors.apply.subtitle":
+      "Maglumatlaryňyzy goýuň — hakyky önümde menejer siziň bilen habarlaşar we profiliňizi resmileşdirmäge kömek eder. Bu prototip, maglumatlar hiç ýere iberilmeýär.",
+    "realtors.apply.fullname": "Familiýa, at",
+    "realtors.apply.agency": "Agentlik (bar bolsa)",
+    "realtors.apply.experience": "Tejribe, ýyl",
+    "realtors.apply.spec": "Hünär ugrı",
+    "realtors.apply.submit": "Haýyşy iber",
+    "realtors.apply.success":
+      "Sag boluň! Haýyş kabul edildi. Menejer iş günüň dowamynda siziň bilen habarlaşar.",
+    "realtors.contact.call": "Jaň et",
+    "realtors.contact.write": "Ýaz",
+    "realtors.profile.about": "Rieltor barada",
+    "realtors.profile.stats": "Iş görkezijileri",
+    "realtors.profile.contacts": "Aragatnaşyk",
+    "realtors.profile.listings": "Rieltoruň bildirişleri",
+    "realtors.profile.listings.empty":
+      "Rieltoruň häzirlikçe işjeň bildirişi ýok.",
+    "realtors.profile.back": "← Ähli rieltorlara",
+
+    "legal.title": "Ýurist kömegi",
+    "legal.subtitle":
+      "Resminamalary ýygnamaga, satyjyny barlamaga we şertnamany howpsuz geçirmäge kömek ederis — maslahatdan Döwlet registrinde hasaba almaga çenli.",
+    "legal.services.title": "Hyzmatyň düzümi",
+    "legal.services.consult": "Hukuk maslahaty",
+    "legal.services.consult.desc":
+      "Ýagdaýyňyzy seljereris: satyn alyş, satuw, baýramat, miras, kärende.",
+    "legal.services.docs": "Resminamalary ýygnamak we taýýarlamak",
+    "legal.services.docs.desc":
+      "Şahadatnamalary, tehniki pasporty we terjimeleri almaga kömek ederis.",
+    "legal.services.contract": "Şertnama düzmek",
+    "legal.services.contract.desc":
+      "Türkmenistanyň talaplaryna laýyk satyn alyş-satuw ýa-da kärende şertnamasy.",
+    "legal.services.notary": "Notarius bilen ýanaşma",
+    "legal.services.notary.desc":
+      "Ýurist şertnamany tassyklaýan wagtynda gatnaşýar we resminamalaryň dogrulygyna gözegçilik edýär.",
+    "legal.services.register": "Şertnamany hasaba almak",
+    "legal.services.register.desc":
+      "Döwlet registrine tabşyrmak we eýeçilik şahadatnamasyny almak.",
+    "legal.services.dispute": "Jedeller we suduň kömegi",
+    "legal.services.dispute.desc":
+      "Goňşular, gurluşykçy ýa-da kärendeçi bilen jedellerde bähbitleriňizi goramak.",
+
+    "legal.docs.title": "Haýsy resminamalar gerek",
+    "legal.docs.deal": "Şertnama görnüşi",
+    "legal.docs.deal.buy": "Satyn alyş",
+    "legal.docs.deal.sell": "Satuw",
+    "legal.docs.deal.rent": "Kärende",
+    "legal.docs.buy.1": "Alyjynyň pasporty",
+    "legal.docs.buy.2": "Är/aýalyň razylygy (bar bolsa)",
+    "legal.docs.buy.3": "Girdeji ýa-da serişde çeşmesi hakynda güwähat",
+    "legal.docs.buy.4": "Bergileriň ýokdugy hakynda resminama",
+    "legal.docs.buy.5": "Satyn alyş-satuw şertnamasynyň asyl nusgasy",
+    "legal.docs.sell.1": "Eýäniň pasporty",
+    "legal.docs.sell.2": "Eýeçilik hakynda resminama",
+    "legal.docs.sell.3": "Binanyň tehniki pasporty",
+    "legal.docs.sell.4": "Tussaglygyň we girewiň ýokdugy hakynda güwähat",
+    "legal.docs.sell.5": "Bilelikdäki eýeleriň/är-aýalyň razylygy",
+    "legal.docs.sell.6": "Kommunal bergileriň ýokdugy hakynda güwähat",
+    "legal.docs.rent.1": "Taraplaryň pasportlary",
+    "legal.docs.rent.2": "Eýeçilik hakynda resminama",
+    "legal.docs.rent.3": "Emläk sanaw listi",
+    "legal.docs.rent.4": "Kärende şertnamasy we kabul-tabşyryş namasy",
+
+    "legal.form.title": "Ýuriste haýyş goýmak",
+    "legal.form.subtitle":
+      "Ýagdaýy düşündiriň — ýurist siziň bilen habarlaşyp, işiň göwrümini we bahasyny aýdar. Bu prototip, maglumatlar iberilmeýär.",
+    "legal.form.deal": "Ýüz tutma görnüşi",
+    "legal.form.description": "Ýagdaýy beýan ediň",
+    "legal.form.description.ph":
+      "Mysal: Berkararlykda kwartira alýarys, şertnama we ýanaşma gerek.",
+    "legal.form.submit": "Haýyşy iber",
+    "legal.form.success.title": "Haýyş kabul edildi",
+    "legal.form.success.desc":
+      "Ýurist iş günüň dowamynda siziň bilen habarlaşar. Prototipde maglumatlar hiç ýere iberilmeýär.",
+    "legal.cta.book": "Maslahata ýazyl",
+
+    "check.title": "Emläk barlagy",
+    "check.subtitle":
+      "Şertnama baglaşmazdan öň binanyň tussaglykda, bankda girewde ýa-da başga çäklendirmeleriň astynda däldigini biliň.",
+    "check.form.address": "Salgy ýa-da kadastr belgisi",
+    "check.form.address.ph":
+      "Mysal: Aşgabat, Berkararlyk, Atamyrat Nyýazow köçesi 15, 42-nji kwartira",
+    "check.form.owner": "Eýäniň adynyň ady (belli bolsa)",
+    "check.form.submit": "Barlamak",
+    "check.form.checking": "Barlanýar…",
+    "check.form.note":
+      "Bu prototip — haýyş hakykatdan-da Döwlet registrine ýa-da banklara iberilmeýär. Netije mysal üçin döredildi.",
+    "check.result.title": "Barlagyň netijesi",
+    "check.result.object": "Obýekt",
+    "check.result.checked": "Barlandy",
+    "check.result.status": "Ýagdaý",
+    "check.result.status.clean": "Çäklendirme ýok",
+    "check.result.status.warn": "Çäklendirmeler bar",
+    "check.result.clean":
+      "Döwlet registri we hyzmatdaş banklaryň maglumatlar bazasy boýunça obýektde tussaglyk, girew ýa-da bergi ýok. Şertnama baglaşyp bolar.",
+    "check.result.warn":
+      "Obýektde çäklendirmeler bar. Şertnama baglaşmazdan öň hökman ýuriste ýüz tutuň we jikme-jikleri satyjydan soraň.",
+    "check.result.blocks.title": "Näme barlanyldy",
+    "check.result.arrest": "Kazyýet tussaglygy",
+    "check.result.pledge": "Bankda girew",
+    "check.result.encumbrance": "Beýleki çäklendirmeler (kärende, serwitut)",
+    "check.result.utility": "Kommunal bergiler",
+    "check.result.owner": "Eýe tassyklanyldy",
+    "check.result.ok": "Arassa",
+    "check.result.fail": "Tapyldy",
+    "check.result.pending": "Barlanmady",
+    "check.result.cta": "Ýurist kömegine ýazylmak",
+    "check.result.new": "Başga obýekti barlamak",
+
+    "mortgage.title": "Gozgalmaýan emläk üçin ipoteka",
+    "mortgage.subtitle":
+      "Türkmenistanda kwartiralary, jaýlary we täjirçilik emlägi satyn almak üçin hyzmatdaş banklaryň karzlary. Tölegi hasaplap, haýyş goýuň.",
+    "mortgage.calc.title": "Ipoteka kalkulýator",
+    "mortgage.calc.price": "Obýektiň bahasy, TMT",
+    "mortgage.calc.down": "Başlangyç töleg, TMT",
+    "mortgage.calc.down_pct": "Başlangyç töleg, %",
+    "mortgage.calc.term": "Möhlet, ýyl",
+    "mortgage.calc.rate": "Göterim, ýyllyk %",
+    "mortgage.calc.monthly": "Aýlyk töleg",
+    "mortgage.calc.loan": "Karzyň möçberi",
+    "mortgage.calc.overpay": "Ähli möhlet üçin aşa töleg",
+    "mortgage.calc.total": "Jemi töleg",
+    "mortgage.calc.per_month": "/ aý",
+
+    "mortgage.banks.title": "Hyzmatdaş banklar",
+    "mortgage.banks.rate": "Göterim",
+    "mortgage.banks.down": "Başlangyç töleg",
+    "mortgage.banks.term": "Möhleti çenli",
+    "mortgage.banks.years": "ýyl",
+    "mortgage.banks.apply": "Haýyş goý",
+    "mortgage.banks.sbtm.name": "Halkbank",
+    "mortgage.banks.sbtm.desc":
+      "Türkmenistanyň raýatlary üçin kwartiralara we jaýlara klassyky ipoteka.",
+    "mortgage.banks.dayhan.name": "Daýhanbank",
+    "mortgage.banks.dayhan.desc":
+      "Welaýatlarda şahsy jaýlar we ýer bölekleri üçin ipoteka.",
+    "mortgage.banks.senagat.name": "Senagat Bank",
+    "mortgage.banks.senagat.desc":
+      "Hyzmatdaş kompaniýalaryň işgärleri üçin karzlar we täjirçilik ipoteka.",
+    "mortgage.banks.rysgal.name": "Rysgal Bank",
+    "mortgage.banks.rysgal.desc":
+      "Ýaş maşgalalar we ýeňillikli toparlar üçin maksatnama.",
+
+    "mortgage.form.title": "Ipoteka haýyşy",
+    "mortgage.form.subtitle":
+      "Haýyş goýuň — menejer siziň parametrleriňize görä bank we maksatnama saýlar. Bu prototip, maglumatlar iberilmeýär.",
+    "mortgage.form.bank": "Saýlanan bank",
+    "mortgage.form.bank.any": "Islendigini saýlaň",
+    "mortgage.form.income": "Aýlyk girdeji, TMT",
+    "mortgage.form.employer": "Iş ýeri",
+    "mortgage.form.submit": "Haýyşy iber",
+    "mortgage.form.success.title": "Ipoteka haýyşy kabul edildi",
+    "mortgage.form.success.desc":
+      "Hakyky önümde menejer jaň edip birinji skoring geçirer. Bu prototip — maglumatlar iberilmeýär.",
+
+    "vr.title": "Obýekt boýunça 3D/VR gezelenç",
+    "vr.badge": "3D tur",
+    "vr.desc":
+      "Her otagy onlaýn görüň — hamala içindäki ýaly. Telefonda, planşetde we VR äýneklerde elýeterli.",
+    "vr.start": "3D gezelenji başla",
+    "vr.close": "Ýygnamak",
+    "vr.fullscreen": "Doly ekran",
+    "vr.unavailable": "Bu obýekt üçin 3D tur henize çenli ýok",
+    "vr.note":
+      "Dolandyryş: syçan/barmak bilen — töwerek seretmek, tigirçek bilen — ýakynlaşdyrmak, pol üstündäki tegelekler — başga otaga geçmek.",
   },
   en: {
     "brand.tagline": "Real estate in Turkmenistan",
@@ -579,6 +1022,14 @@ export const DICT = {
     "new.submit": "Publish",
     "new.required":
       "Please fill in the required fields: title, price, area and phone.",
+    "new.map.label": "Location on the map",
+    "new.map.hint": "Click on the map to place the pin. You can also drag the marker.",
+    "new.map.use_gps": "Use my location",
+    "new.map.selected": "Coordinates",
+    "new.map.none": "No point selected — the city centre will be used",
+    "new.map.reset": "Reset to city centre",
+    "new.map.error": "Could not load the map. Please check your connection.",
+    "new.map.geo_error": "Could not get your location. Please allow access in the browser.",
     "new.success.title": "Listing submitted!",
     "new.success.desc":
       "In a real product it would go to moderation. This is a prototype, so we just show a confirmation.",
@@ -658,6 +1109,220 @@ export const DICT = {
     "common.of_currency": "TMT",
     "deal.sale": "For sale",
     "deal.rent": "For rent",
+
+    "nav.services": "Services",
+    "services.title": "Jay.tm services",
+    "services.subtitle":
+      "Extra services for buyers, tenants and owners — all in one place.",
+    "services.realtors": "Realtors",
+    "services.realtors.desc":
+      "Directory of vetted Turkmenistan realtors with ratings, reviews and active listings.",
+    "services.legal": "Lawyer",
+    "services.legal.desc":
+      "Lawyer help with collecting and preparing documents for sale and rental deals.",
+    "services.check": "Property check",
+    "services.check.desc":
+      "Check whether a property is under arrest or pledged to a bank before buying.",
+    "services.mortgage": "Mortgage",
+    "services.mortgage.desc":
+      "Mortgage loans from partner banks: calculator and application.",
+    "services.open": "Open →",
+    "services.coming_soon": "Coming soon",
+
+    "realtors.title": "Realtors in Turkmenistan",
+    "realtors.subtitle":
+      "Verified real-estate agents in Ashgabat, Turkmenabat, Mary, Dashoguz, Balkanabat and Turkmenbashi. They help you find a property, close the deal and check documents.",
+    "realtors.search.placeholder": "Name, agency or city…",
+    "realtors.city": "City",
+    "realtors.city.any": "All cities",
+    "realtors.spec": "Specialization",
+    "realtors.spec.any": "Any",
+    "realtors.spec.sale_apartments": "Apartment sales",
+    "realtors.spec.rent_apartments": "Apartment rentals",
+    "realtors.spec.houses": "Houses",
+    "realtors.spec.commercial": "Commercial",
+    "realtors.spec.land": "Land",
+    "realtors.found": "Realtors found:",
+    "realtors.no_results": "No realtors match your filters.",
+    "realtors.reset": "Reset filters",
+    "realtors.rating": "rating",
+    "realtors.reviews": "reviews",
+    "realtors.deals": "closed deals",
+    "realtors.listings": "active listings",
+    "realtors.experience": "experience",
+    "realtors.experience.years": "yrs",
+    "realtors.languages": "Languages",
+    "realtors.agency.none": "Independent realtor",
+    "realtors.become.title": "Are you a realtor?",
+    "realtors.become.desc":
+      "Create a profile, get inquiries from buyers and tenants, and manage your listings in the Jay.tm dashboard.",
+    "realtors.become.cta": "Become a partner",
+    "realtors.apply.title": "Apply to be listed in the realtor catalog",
+    "realtors.apply.subtitle":
+      "Leave your details — in a real product a manager would contact you and help set up your profile. This is a prototype, data is not sent anywhere.",
+    "realtors.apply.fullname": "Full name",
+    "realtors.apply.agency": "Agency (if any)",
+    "realtors.apply.experience": "Experience, years",
+    "realtors.apply.spec": "Specialization",
+    "realtors.apply.submit": "Send application",
+    "realtors.apply.success":
+      "Thanks! Your application is received. A manager will contact you within the next business day.",
+    "realtors.contact.call": "Call",
+    "realtors.contact.write": "Message",
+    "realtors.profile.about": "About",
+    "realtors.profile.stats": "Performance",
+    "realtors.profile.contacts": "Contacts",
+    "realtors.profile.listings": "Realtor's listings",
+    "realtors.profile.listings.empty":
+      "No active listings from this realtor yet.",
+    "realtors.profile.back": "← Back to all realtors",
+
+    "legal.title": "Lawyer help",
+    "legal.subtitle":
+      "We help you collect documents, vet the seller and close the deal safely — from consultation to registration with the State Registry.",
+    "legal.services.title": "What's included",
+    "legal.services.consult": "Legal consultation",
+    "legal.services.consult.desc":
+      "We analyse your case: purchase, sale, gift, inheritance, rental.",
+    "legal.services.docs": "Collecting and preparing documents",
+    "legal.services.docs.desc":
+      "We help you obtain certificates, extracts, technical passport and certified translations.",
+    "legal.services.contract": "Drafting the contract",
+    "legal.services.contract.desc":
+      "Sales or rental agreement that meets Turkmenistan's legal requirements.",
+    "legal.services.notary": "Notary accompaniment",
+    "legal.services.notary.desc":
+      "A lawyer attends the notary certification and checks that documents are correct.",
+    "legal.services.register": "Deal registration",
+    "legal.services.register.desc":
+      "Filing with the State Registry and obtaining the title certificate.",
+    "legal.services.dispute": "Disputes and court",
+    "legal.services.dispute.desc":
+      "Protecting your interests in disputes with neighbours, developer or tenant.",
+
+    "legal.docs.title": "Required documents",
+    "legal.docs.deal": "Deal type",
+    "legal.docs.deal.buy": "Purchase",
+    "legal.docs.deal.sell": "Sale",
+    "legal.docs.deal.rent": "Rental",
+    "legal.docs.buy.1": "Buyer's ID",
+    "legal.docs.buy.2": "Spousal consent (if applicable)",
+    "legal.docs.buy.3": "Proof of income or funds source",
+    "legal.docs.buy.4": "Certificate of no outstanding debts",
+    "legal.docs.buy.5": "Original sales contract",
+    "legal.docs.sell.1": "Owner's ID",
+    "legal.docs.sell.2": "Title deed",
+    "legal.docs.sell.3": "Technical passport of the building",
+    "legal.docs.sell.4": "Certificate of no arrest / no pledge",
+    "legal.docs.sell.5": "Co-owner / spousal consent",
+    "legal.docs.sell.6": "Certificate of no utility arrears",
+    "legal.docs.rent.1": "IDs of both parties",
+    "legal.docs.rent.2": "Title deed",
+    "legal.docs.rent.3": "Inventory of property",
+    "legal.docs.rent.4": "Rental agreement and handover act",
+
+    "legal.form.title": "Request a lawyer",
+    "legal.form.subtitle":
+      "Describe your case — a lawyer will contact you, estimate the scope and quote a price. This is a prototype, data is not sent anywhere.",
+    "legal.form.deal": "Request type",
+    "legal.form.description": "Describe the situation",
+    "legal.form.description.ph":
+      "e.g. buying an apartment in Berkararlyk, need a contract and deal support.",
+    "legal.form.submit": "Send request",
+    "legal.form.success.title": "Request received",
+    "legal.form.success.desc":
+      "A lawyer will contact you within one business day. In the prototype data is not actually sent.",
+    "legal.cta.book": "Book a consultation",
+
+    "check.title": "Property check",
+    "check.subtitle":
+      "Find out whether a property is under arrest, pledged to a bank or has any encumbrances — before signing the deal.",
+    "check.form.address": "Address or cadastral number",
+    "check.form.address.ph":
+      "e.g. Ashgabat, Berkararlyk, Atamurat Nyyazov st. 15, apt. 42",
+    "check.form.owner": "Owner's full name (if known)",
+    "check.form.submit": "Check",
+    "check.form.checking": "Checking…",
+    "check.form.note":
+      "This is a prototype — the request isn't actually sent to the State Registry or banks. The result is generated from sample data.",
+    "check.result.title": "Check result",
+    "check.result.object": "Object",
+    "check.result.checked": "Checked",
+    "check.result.status": "Status",
+    "check.result.status.clean": "No restrictions found",
+    "check.result.status.warn": "Restrictions found",
+    "check.result.clean":
+      "According to the State Registry and partner banks the property is free of arrests, pledges and arrears. You can proceed with the deal.",
+    "check.result.warn":
+      "This property has restrictions. Before the deal, consult a lawyer and check details with the seller.",
+    "check.result.blocks.title": "What was checked",
+    "check.result.arrest": "Court arrest / enforcement",
+    "check.result.pledge": "Bank pledge",
+    "check.result.encumbrance": "Other encumbrances (lease, easement)",
+    "check.result.utility": "Utility arrears",
+    "check.result.owner": "Owner verified",
+    "check.result.ok": "Clear",
+    "check.result.fail": "Found",
+    "check.result.pending": "Not checked",
+    "check.result.cta": "Order legal support",
+    "check.result.new": "Check another property",
+
+    "mortgage.title": "Mortgage for real estate",
+    "mortgage.subtitle":
+      "Mortgage loans from partner banks for buying apartments, houses and commercial property in Turkmenistan. Calculate the payment and submit an application.",
+    "mortgage.calc.title": "Mortgage calculator",
+    "mortgage.calc.price": "Property price, TMT",
+    "mortgage.calc.down": "Down payment, TMT",
+    "mortgage.calc.down_pct": "Down payment, %",
+    "mortgage.calc.term": "Term, years",
+    "mortgage.calc.rate": "Rate, % annual",
+    "mortgage.calc.monthly": "Monthly payment",
+    "mortgage.calc.loan": "Loan amount",
+    "mortgage.calc.overpay": "Total interest over the term",
+    "mortgage.calc.total": "Total payments",
+    "mortgage.calc.per_month": "/ mo",
+
+    "mortgage.banks.title": "Partner banks",
+    "mortgage.banks.rate": "Rate from",
+    "mortgage.banks.down": "Down payment from",
+    "mortgage.banks.term": "Term up to",
+    "mortgage.banks.years": "yrs",
+    "mortgage.banks.apply": "Apply",
+    "mortgage.banks.sbtm.name": "Halkbank",
+    "mortgage.banks.sbtm.desc":
+      "Classic mortgage on apartments and houses for citizens of Turkmenistan.",
+    "mortgage.banks.dayhan.name": "Daýhanbank",
+    "mortgage.banks.dayhan.desc":
+      "Mortgage for private houses and land plots in the regions.",
+    "mortgage.banks.senagat.name": "Senagat Bank",
+    "mortgage.banks.senagat.desc":
+      "Loans for employees of partner companies and commercial mortgage.",
+    "mortgage.banks.rysgal.name": "Rysgal Bank",
+    "mortgage.banks.rysgal.desc":
+      "Programme for young families and eligible categories.",
+
+    "mortgage.form.title": "Mortgage application",
+    "mortgage.form.subtitle":
+      "Submit an application — a manager will pick a bank and programme that fits your parameters. This is a prototype, data is not sent.",
+    "mortgage.form.bank": "Selected bank",
+    "mortgage.form.bank.any": "Pick any",
+    "mortgage.form.income": "Monthly income, TMT",
+    "mortgage.form.employer": "Employer",
+    "mortgage.form.submit": "Send application",
+    "mortgage.form.success.title": "Mortgage application received",
+    "mortgage.form.success.desc":
+      "In a real product a manager would call back and run an initial scoring. This is a prototype — data is not sent.",
+
+    "vr.title": "3D/VR tour of the property",
+    "vr.badge": "3D tour",
+    "vr.desc":
+      "Walk through every room online — as if you were inside. Works on phone, tablet and in VR headsets.",
+    "vr.start": "Start 3D tour",
+    "vr.close": "Collapse",
+    "vr.fullscreen": "Fullscreen",
+    "vr.unavailable": "3D tour is not available for this property yet",
+    "vr.note":
+      "Controls: mouse / finger to look around, wheel to zoom, click circles on the floor to move to another room.",
   },
 } as const;
 

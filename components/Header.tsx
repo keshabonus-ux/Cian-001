@@ -31,6 +31,7 @@ export function Header() {
     { href: "/search?type=commercial", key: "nav.commercial" },
     { href: "/search?type=house", key: "nav.houses" },
     { href: "/search?type=land", key: "nav.land" },
+    { href: "/services", key: "nav.services" },
   ];
 
   return (

@@ -7,12 +7,14 @@ import { formatPrice } from "@/lib/format";
 import type { Listing } from "@/lib/types";
 import { useApp } from "./I18nProvider";
 import { relativeDateI18n } from "@/lib/dateI18n";
+import { vrTourUrl } from "@/lib/vr";
 
 export function ListingCard({ listing }: { listing: Listing }) {
   const { t, lang } = useApp();
   const price = formatPrice(listing.price, lang);
   const priceLabel =
     listing.dealType === "rent" ? `${price} ${t("listing.per_month")}` : price;
+  const has3d = Boolean(vrTourUrl(listing.id));
 
   return (
     <Link
@@ -40,6 +42,12 @@ export function ListingCard({ listing }: { listing: Listing }) {
           <span className="text-xs font-medium px-2 py-1 rounded-full bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-100 shadow">
             {t(`prop.${listing.propertyType}` as const)}
           </span>
+          {has3d ? (
+            <span className="text-xs font-semibold px-2 py-1 rounded-full bg-brand-600 text-white shadow inline-flex items-center gap-1">
+              <span>🕶</span>
+              <span>{t("vr.badge")}</span>
+            </span>
+          ) : null}
         </div>
       </div>
 

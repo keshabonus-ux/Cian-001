@@ -69,9 +69,24 @@ export function Footer() {
         </div>
         <div>
           <h3 className="text-white font-semibold mb-3">
-            {t("footer.service")}
+            {t("nav.services")}
           </h3>
           <ul className="space-y-2 text-sm">
+            <li>
+              <Link href="/services">{t("nav.services")}</Link>
+            </li>
+            <li>
+              <Link href="/realtors">{t("services.realtors")}</Link>
+            </li>
+            <li>
+              <Link href="/legal">{t("services.legal")}</Link>
+            </li>
+            <li>
+              <Link href="/check">{t("services.check")}</Link>
+            </li>
+            <li>
+              <Link href="/mortgage">{t("services.mortgage")}</Link>
+            </li>
             <li>
               <Link href="/new">{t("footer.post")}</Link>
             </li>

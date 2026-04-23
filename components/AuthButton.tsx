@@ -102,15 +102,15 @@ export function AuthButton() {
 
       {open ? (
         <div
-          className="fixed inset-0 z-50 bg-slate-900/60 flex items-center justify-center p-4"
+          className="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4"
           onClick={close}
         >
           <div
-            className="bg-white dark:bg-slate-900 rounded-2xl shadow-xl w-full max-w-lg max-h-[92vh] overflow-y-auto"
+            className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-2xl shadow-2xl dark:shadow-black/60 ring-1 ring-black/5 dark:ring-white/10 w-full max-w-lg max-h-[92vh] overflow-y-auto"
             onClick={(e) => e.stopPropagation()}
           >
             <div className="flex items-center justify-between px-6 py-4 border-b border-slate-200 dark:border-slate-800">
-              <h2 className="text-lg font-bold">{t("auth.title")}</h2>
+              <h2 className="text-lg font-bold text-slate-900 dark:text-slate-100">{t("auth.title")}</h2>
               <button
                 type="button"
                 onClick={close}
@@ -127,8 +127,8 @@ export function AuthButton() {
                     onClick={() => setTab("buyer")}
                     className={`px-4 py-3 text-sm font-semibold transition-colors ${
                       tab === "buyer"
-                        ? "bg-brand-50 text-brand-700 border-b-2 border-brand-600"
-                        : "text-slate-600 hover:bg-slate-50"
+                        ? "bg-brand-50 text-brand-700 dark:bg-brand-900/30 dark:text-brand-200 border-b-2 border-brand-600"
+                        : "text-slate-600 hover:bg-slate-50 dark:text-slate-300 dark:hover:bg-slate-800"
                     }`}
                   >
                     🔑 {t("auth.tab.buyer")}
@@ -138,8 +138,8 @@ export function AuthButton() {
                     onClick={() => setTab("seller")}
                     className={`px-4 py-3 text-sm font-semibold transition-colors ${
                       tab === "seller"
-                        ? "bg-brand-50 text-brand-700 border-b-2 border-brand-600"
-                        : "text-slate-600 hover:bg-slate-50"
+                        ? "bg-brand-50 text-brand-700 dark:bg-brand-900/30 dark:text-brand-200 border-b-2 border-brand-600"
+                        : "text-slate-600 hover:bg-slate-50 dark:text-slate-300 dark:hover:bg-slate-800"
                     }`}
                   >
                     🏠 {t("auth.tab.seller")}
@@ -229,7 +229,7 @@ export function AuthButton() {
                     )}
                   </div>
 
-                  <div className="text-xs text-slate-500 dark:text-slate-400 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg p-3">
+                  <div className="text-xs text-slate-500 dark:text-slate-400 bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700 rounded-lg p-3">
                     {t("auth.demo_note")}
                   </div>
                 </form>
