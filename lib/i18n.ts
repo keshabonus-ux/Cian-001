@@ -290,6 +290,63 @@ export const DICT = {
     "realtors.profile.listings.empty":
       "Активных объявлений у риелтора пока нет.",
     "realtors.profile.back": "← Ко всем риелторам",
+
+    "legal.title": "Помощь юриста",
+    "legal.subtitle":
+      "Поможем собрать документы, проверить продавца и провести сделку безопасно — от консультации до регистрации в Госрегистре.",
+    "legal.services.title": "Что входит в услугу",
+    "legal.services.consult": "Юридическая консультация",
+    "legal.services.consult.desc":
+      "Разберём вашу ситуацию: покупка, продажа, дарение, наследство, аренда.",
+    "legal.services.docs": "Сбор и подготовка документов",
+    "legal.services.docs.desc":
+      "Поможем получить справки, выписки, технический паспорт и заверенные переводы.",
+    "legal.services.contract": "Составление договора",
+    "legal.services.contract.desc":
+      "Договор купли-продажи или аренды с учётом требований Туркменистана.",
+    "legal.services.notary": "Сопровождение у нотариуса",
+    "legal.services.notary.desc":
+      "Юрист присутствует при удостоверении сделки и контролирует корректность документов.",
+    "legal.services.register": "Регистрация сделки",
+    "legal.services.register.desc":
+      "Подача в Госрегистр и получение свидетельства о праве собственности.",
+    "legal.services.dispute": "Споры и суды",
+    "legal.services.dispute.desc":
+      "Защита интересов при спорах с соседями, застройщиком или арендатором.",
+
+    "legal.docs.title": "Какие документы нужны",
+    "legal.docs.deal": "Вид сделки",
+    "legal.docs.deal.buy": "Покупка",
+    "legal.docs.deal.sell": "Продажа",
+    "legal.docs.deal.rent": "Аренда",
+    "legal.docs.buy.1": "Паспорт покупателя",
+    "legal.docs.buy.2": "Согласие супруга/супруги (если есть)",
+    "legal.docs.buy.3": "Справка о доходах или источнике средств",
+    "legal.docs.buy.4": "Документ об отсутствии задолженностей",
+    "legal.docs.buy.5": "Оригинал договора купли-продажи",
+    "legal.docs.sell.1": "Паспорт собственника",
+    "legal.docs.sell.2": "Документ о праве собственности",
+    "legal.docs.sell.3": "Технический паспорт здания",
+    "legal.docs.sell.4": "Справка об отсутствии ареста и залога",
+    "legal.docs.sell.5": "Согласие совладельцев/супруга",
+    "legal.docs.sell.6": "Справка об отсутствии коммунальных долгов",
+    "legal.docs.rent.1": "Паспорта сторон",
+    "legal.docs.rent.2": "Документ о праве собственности",
+    "legal.docs.rent.3": "Опись имущества",
+    "legal.docs.rent.4": "Договор аренды и акт приёма-передачи",
+
+    "legal.form.title": "Оставить заявку юристу",
+    "legal.form.subtitle":
+      "Опишите ситуацию — юрист свяжется с вами, оценит объём работ и назовёт стоимость. Это прототип, данные не отправляются.",
+    "legal.form.deal": "Тип обращения",
+    "legal.form.description": "Описание ситуации",
+    "legal.form.description.ph":
+      "Например: покупаем квартиру в Беркарарлыке, нужен договор и сопровождение сделки.",
+    "legal.form.submit": "Отправить заявку",
+    "legal.form.success.title": "Заявка принята",
+    "legal.form.success.desc":
+      "Юрист свяжется с вами в течение рабочего дня. В прототипе данные никуда не отправляются.",
+    "legal.cta.book": "Записаться на консультацию",
   },
   tk: {
     "brand.tagline": "Türkmenistanyň gozgalmaýan emläk bazary",
@@ -574,6 +631,63 @@ export const DICT = {
     "realtors.profile.listings.empty":
       "Rieltoruň häzirlikçe işjeň bildirişi ýok.",
     "realtors.profile.back": "← Ähli rieltorlara",
+
+    "legal.title": "Ýurist kömegi",
+    "legal.subtitle":
+      "Resminamalary ýygnamaga, satyjyny barlamaga we şertnamany howpsuz geçirmäge kömek ederis — maslahatdan Döwlet registrinde hasaba almaga çenli.",
+    "legal.services.title": "Hyzmatyň düzümi",
+    "legal.services.consult": "Hukuk maslahaty",
+    "legal.services.consult.desc":
+      "Ýagdaýyňyzy seljereris: satyn alyş, satuw, baýramat, miras, kärende.",
+    "legal.services.docs": "Resminamalary ýygnamak we taýýarlamak",
+    "legal.services.docs.desc":
+      "Şahadatnamalary, tehniki pasporty we terjimeleri almaga kömek ederis.",
+    "legal.services.contract": "Şertnama düzmek",
+    "legal.services.contract.desc":
+      "Türkmenistanyň talaplaryna laýyk satyn alyş-satuw ýa-da kärende şertnamasy.",
+    "legal.services.notary": "Notarius bilen ýanaşma",
+    "legal.services.notary.desc":
+      "Ýurist şertnamany tassyklaýan wagtynda gatnaşýar we resminamalaryň dogrulygyna gözegçilik edýär.",
+    "legal.services.register": "Şertnamany hasaba almak",
+    "legal.services.register.desc":
+      "Döwlet registrine tabşyrmak we eýeçilik şahadatnamasyny almak.",
+    "legal.services.dispute": "Jedeller we suduň kömegi",
+    "legal.services.dispute.desc":
+      "Goňşular, gurluşykçy ýa-da kärendeçi bilen jedellerde bähbitleriňizi goramak.",
+
+    "legal.docs.title": "Haýsy resminamalar gerek",
+    "legal.docs.deal": "Şertnama görnüşi",
+    "legal.docs.deal.buy": "Satyn alyş",
+    "legal.docs.deal.sell": "Satuw",
+    "legal.docs.deal.rent": "Kärende",
+    "legal.docs.buy.1": "Alyjynyň pasporty",
+    "legal.docs.buy.2": "Är/aýalyň razylygy (bar bolsa)",
+    "legal.docs.buy.3": "Girdeji ýa-da serişde çeşmesi hakynda güwähat",
+    "legal.docs.buy.4": "Bergileriň ýokdugy hakynda resminama",
+    "legal.docs.buy.5": "Satyn alyş-satuw şertnamasynyň asyl nusgasy",
+    "legal.docs.sell.1": "Eýäniň pasporty",
+    "legal.docs.sell.2": "Eýeçilik hakynda resminama",
+    "legal.docs.sell.3": "Binanyň tehniki pasporty",
+    "legal.docs.sell.4": "Tussaglygyň we girewiň ýokdugy hakynda güwähat",
+    "legal.docs.sell.5": "Bilelikdäki eýeleriň/är-aýalyň razylygy",
+    "legal.docs.sell.6": "Kommunal bergileriň ýokdugy hakynda güwähat",
+    "legal.docs.rent.1": "Taraplaryň pasportlary",
+    "legal.docs.rent.2": "Eýeçilik hakynda resminama",
+    "legal.docs.rent.3": "Emläk sanaw listi",
+    "legal.docs.rent.4": "Kärende şertnamasy we kabul-tabşyryş namasy",
+
+    "legal.form.title": "Ýuriste haýyş goýmak",
+    "legal.form.subtitle":
+      "Ýagdaýy düşündiriň — ýurist siziň bilen habarlaşyp, işiň göwrümini we bahasyny aýdar. Bu prototip, maglumatlar iberilmeýär.",
+    "legal.form.deal": "Ýüz tutma görnüşi",
+    "legal.form.description": "Ýagdaýy beýan ediň",
+    "legal.form.description.ph":
+      "Mysal: Berkararlykda kwartira alýarys, şertnama we ýanaşma gerek.",
+    "legal.form.submit": "Haýyşy iber",
+    "legal.form.success.title": "Haýyş kabul edildi",
+    "legal.form.success.desc":
+      "Ýurist iş günüň dowamynda siziň bilen habarlaşar. Prototipde maglumatlar hiç ýere iberilmeýär.",
+    "legal.cta.book": "Maslahata ýazyl",
   },
   en: {
     "brand.tagline": "Real estate in Turkmenistan",
@@ -858,6 +972,63 @@ export const DICT = {
     "realtors.profile.listings.empty":
       "No active listings from this realtor yet.",
     "realtors.profile.back": "← Back to all realtors",
+
+    "legal.title": "Lawyer help",
+    "legal.subtitle":
+      "We help you collect documents, vet the seller and close the deal safely — from consultation to registration with the State Registry.",
+    "legal.services.title": "What's included",
+    "legal.services.consult": "Legal consultation",
+    "legal.services.consult.desc":
+      "We analyse your case: purchase, sale, gift, inheritance, rental.",
+    "legal.services.docs": "Collecting and preparing documents",
+    "legal.services.docs.desc":
+      "We help you obtain certificates, extracts, technical passport and certified translations.",
+    "legal.services.contract": "Drafting the contract",
+    "legal.services.contract.desc":
+      "Sales or rental agreement that meets Turkmenistan's legal requirements.",
+    "legal.services.notary": "Notary accompaniment",
+    "legal.services.notary.desc":
+      "A lawyer attends the notary certification and checks that documents are correct.",
+    "legal.services.register": "Deal registration",
+    "legal.services.register.desc":
+      "Filing with the State Registry and obtaining the title certificate.",
+    "legal.services.dispute": "Disputes and court",
+    "legal.services.dispute.desc":
+      "Protecting your interests in disputes with neighbours, developer or tenant.",
+
+    "legal.docs.title": "Required documents",
+    "legal.docs.deal": "Deal type",
+    "legal.docs.deal.buy": "Purchase",
+    "legal.docs.deal.sell": "Sale",
+    "legal.docs.deal.rent": "Rental",
+    "legal.docs.buy.1": "Buyer's ID",
+    "legal.docs.buy.2": "Spousal consent (if applicable)",
+    "legal.docs.buy.3": "Proof of income or funds source",
+    "legal.docs.buy.4": "Certificate of no outstanding debts",
+    "legal.docs.buy.5": "Original sales contract",
+    "legal.docs.sell.1": "Owner's ID",
+    "legal.docs.sell.2": "Title deed",
+    "legal.docs.sell.3": "Technical passport of the building",
+    "legal.docs.sell.4": "Certificate of no arrest / no pledge",
+    "legal.docs.sell.5": "Co-owner / spousal consent",
+    "legal.docs.sell.6": "Certificate of no utility arrears",
+    "legal.docs.rent.1": "IDs of both parties",
+    "legal.docs.rent.2": "Title deed",
+    "legal.docs.rent.3": "Inventory of property",
+    "legal.docs.rent.4": "Rental agreement and handover act",
+
+    "legal.form.title": "Request a lawyer",
+    "legal.form.subtitle":
+      "Describe your case — a lawyer will contact you, estimate the scope and quote a price. This is a prototype, data is not sent anywhere.",
+    "legal.form.deal": "Request type",
+    "legal.form.description": "Describe the situation",
+    "legal.form.description.ph":
+      "e.g. buying an apartment in Berkararlyk, need a contract and deal support.",
+    "legal.form.submit": "Send request",
+    "legal.form.success.title": "Request received",
+    "legal.form.success.desc":
+      "A lawyer will contact you within one business day. In the prototype data is not actually sent.",
+    "legal.cta.book": "Book a consultation",
   },
 } as const;
 

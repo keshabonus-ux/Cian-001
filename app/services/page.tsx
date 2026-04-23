@@ -25,7 +25,7 @@ const SERVICES: ServiceCard[] = [
     icon: "⚖️",
     titleKey: "services.legal",
     descKey: "services.legal.desc",
-    available: false,
+    available: true,
   },
   {
     href: "/check",
