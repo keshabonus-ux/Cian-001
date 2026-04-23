@@ -32,7 +32,7 @@ const SERVICES: ServiceCard[] = [
     icon: "🛡️",
     titleKey: "services.check",
     descKey: "services.check.desc",
-    available: false,
+    available: true,
   },
   {
     href: "/mortgage",

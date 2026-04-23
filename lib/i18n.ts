@@ -347,6 +347,39 @@ export const DICT = {
     "legal.form.success.desc":
       "Юрист свяжется с вами в течение рабочего дня. В прототипе данные никуда не отправляются.",
     "legal.cta.book": "Записаться на консультацию",
+
+    "check.title": "Проверка недвижимости",
+    "check.subtitle":
+      "Узнайте, не находится ли здание под арестом, в залоге у банка или под ограничениями — до заключения сделки.",
+    "check.form.address": "Адрес или кадастровый номер",
+    "check.form.address.ph":
+      "Например: Ашхабад, Беркарарлык, ул. Атамурат Ныязова 15, кв. 42",
+    "check.form.owner": "ФИО собственника (если известно)",
+    "check.form.submit": "Проверить",
+    "check.form.checking": "Проверяем…",
+    "check.form.note":
+      "Это прототип — запрос не уходит в Госрегистр или банки. Результат сгенерирован по данным примера.",
+    "check.result.title": "Результат проверки",
+    "check.result.object": "Объект",
+    "check.result.checked": "Проверено",
+    "check.result.status": "Статус",
+    "check.result.status.clean": "Ограничений не выявлено",
+    "check.result.status.warn": "Есть ограничения",
+    "check.result.clean":
+      "По базам Госрегистра и банков-партнёров объект свободен от арестов, залогов и задолженностей. Можно выходить на сделку.",
+    "check.result.warn":
+      "По объекту есть ограничения. Перед сделкой обязательно обратитесь к юристу и уточните детали у продавца.",
+    "check.result.blocks.title": "Что проверено",
+    "check.result.arrest": "Арест суда / ФССП",
+    "check.result.pledge": "Залог в банке",
+    "check.result.encumbrance": "Прочие обременения (аренда, сервитут)",
+    "check.result.utility": "Коммунальные задолженности",
+    "check.result.owner": "Собственник подтверждён",
+    "check.result.ok": "Чисто",
+    "check.result.fail": "Обнаружено",
+    "check.result.pending": "Не проверено",
+    "check.result.cta": "Заказать юридическое сопровождение",
+    "check.result.new": "Проверить другой объект",
   },
   tk: {
     "brand.tagline": "Türkmenistanyň gozgalmaýan emläk bazary",
@@ -688,6 +721,39 @@ export const DICT = {
     "legal.form.success.desc":
       "Ýurist iş günüň dowamynda siziň bilen habarlaşar. Prototipde maglumatlar hiç ýere iberilmeýär.",
     "legal.cta.book": "Maslahata ýazyl",
+
+    "check.title": "Emläk barlagy",
+    "check.subtitle":
+      "Şertnama baglaşmazdan öň binanyň tussaglykda, bankda girewde ýa-da başga çäklendirmeleriň astynda däldigini biliň.",
+    "check.form.address": "Salgy ýa-da kadastr belgisi",
+    "check.form.address.ph":
+      "Mysal: Aşgabat, Berkararlyk, Atamyrat Nyýazow köçesi 15, 42-nji kwartira",
+    "check.form.owner": "Eýäniň adynyň ady (belli bolsa)",
+    "check.form.submit": "Barlamak",
+    "check.form.checking": "Barlanýar…",
+    "check.form.note":
+      "Bu prototip — haýyş hakykatdan-da Döwlet registrine ýa-da banklara iberilmeýär. Netije mysal üçin döredildi.",
+    "check.result.title": "Barlagyň netijesi",
+    "check.result.object": "Obýekt",
+    "check.result.checked": "Barlandy",
+    "check.result.status": "Ýagdaý",
+    "check.result.status.clean": "Çäklendirme ýok",
+    "check.result.status.warn": "Çäklendirmeler bar",
+    "check.result.clean":
+      "Döwlet registri we hyzmatdaş banklaryň maglumatlar bazasy boýunça obýektde tussaglyk, girew ýa-da bergi ýok. Şertnama baglaşyp bolar.",
+    "check.result.warn":
+      "Obýektde çäklendirmeler bar. Şertnama baglaşmazdan öň hökman ýuriste ýüz tutuň we jikme-jikleri satyjydan soraň.",
+    "check.result.blocks.title": "Näme barlanyldy",
+    "check.result.arrest": "Kazyýet tussaglygy",
+    "check.result.pledge": "Bankda girew",
+    "check.result.encumbrance": "Beýleki çäklendirmeler (kärende, serwitut)",
+    "check.result.utility": "Kommunal bergiler",
+    "check.result.owner": "Eýe tassyklanyldy",
+    "check.result.ok": "Arassa",
+    "check.result.fail": "Tapyldy",
+    "check.result.pending": "Barlanmady",
+    "check.result.cta": "Ýurist kömegine ýazylmak",
+    "check.result.new": "Başga obýekti barlamak",
   },
   en: {
     "brand.tagline": "Real estate in Turkmenistan",
@@ -1029,6 +1095,39 @@ export const DICT = {
     "legal.form.success.desc":
       "A lawyer will contact you within one business day. In the prototype data is not actually sent.",
     "legal.cta.book": "Book a consultation",
+
+    "check.title": "Property check",
+    "check.subtitle":
+      "Find out whether a property is under arrest, pledged to a bank or has any encumbrances — before signing the deal.",
+    "check.form.address": "Address or cadastral number",
+    "check.form.address.ph":
+      "e.g. Ashgabat, Berkararlyk, Atamurat Nyyazov st. 15, apt. 42",
+    "check.form.owner": "Owner's full name (if known)",
+    "check.form.submit": "Check",
+    "check.form.checking": "Checking…",
+    "check.form.note":
+      "This is a prototype — the request isn't actually sent to the State Registry or banks. The result is generated from sample data.",
+    "check.result.title": "Check result",
+    "check.result.object": "Object",
+    "check.result.checked": "Checked",
+    "check.result.status": "Status",
+    "check.result.status.clean": "No restrictions found",
+    "check.result.status.warn": "Restrictions found",
+    "check.result.clean":
+      "According to the State Registry and partner banks the property is free of arrests, pledges and arrears. You can proceed with the deal.",
+    "check.result.warn":
+      "This property has restrictions. Before the deal, consult a lawyer and check details with the seller.",
+    "check.result.blocks.title": "What was checked",
+    "check.result.arrest": "Court arrest / enforcement",
+    "check.result.pledge": "Bank pledge",
+    "check.result.encumbrance": "Other encumbrances (lease, easement)",
+    "check.result.utility": "Utility arrears",
+    "check.result.owner": "Owner verified",
+    "check.result.ok": "Clear",
+    "check.result.fail": "Found",
+    "check.result.pending": "Not checked",
+    "check.result.cta": "Order legal support",
+    "check.result.new": "Check another property",
   },
 } as const;
 
