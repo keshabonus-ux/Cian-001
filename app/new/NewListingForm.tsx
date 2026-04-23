@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { CITIES } from "@/lib/cities";
 import { useApp } from "@/components/I18nProvider";
+import { MapPicker, type LatLng } from "@/components/MapPicker";
 
 export function NewListingForm() {
   const { t } = useApp();
@@ -11,8 +12,12 @@ export function NewListingForm() {
   const [propertyType, setPropertyType] = useState<string>("apartment");
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [coords, setCoords] = useState<LatLng | null>(null);
 
   const city = useMemo(() => CITIES.find((c) => c.id === cityId), [cityId]);
+  const mapCenter: LatLng = city
+    ? { lat: city.lat, lng: city.lng }
+    : { lat: 37.9601, lng: 58.3261 };
 
   const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -158,6 +163,19 @@ export function NewListingForm() {
           className="input"
           placeholder={t("new.address.placeholder")}
         />
+      </div>
+
+      <div>
+        <label className="block text-sm font-medium mb-1">
+          {t("new.map.label")}
+        </label>
+        <MapPicker
+          center={mapCenter}
+          value={coords}
+          onChange={setCoords}
+        />
+        <input type="hidden" name="lat" value={coords?.lat ?? ""} />
+        <input type="hidden" name="lng" value={coords?.lng ?? ""} />
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
